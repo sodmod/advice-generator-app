@@ -1,5 +1,5 @@
 export const endpoints = {
-    search: "",
-    "random-advice": "",
-    "advice-by-id": "",
+	search: "",
+	"random-advice": "",
+	"advice-by-id": "",
 };

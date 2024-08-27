@@ -1,4 +1,7 @@
+import { reducer } from "./config";
+
 export type FormMethod = "POST" | "PUT" | "DELETE";
+export type RootState = ReturnType<typeof reducer>;
 
 export interface AppState {
 	request: object;

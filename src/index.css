@@ -68,7 +68,8 @@ body {
   width: 100%;
   display: block;
 }
-.mobile_divider{
+
+.mobile_divider {
   display: none;
 }
 
@@ -76,6 +77,11 @@ body {
   position: absolute; /* Place the container relative to the card */
   left: 45%;
   top: 85%;
+}
+
+.icon_container:hover {
+  background-color: var(--NeonGreen);
+  border-radius: 50%;
 }
 
 .icon {
@@ -107,19 +113,22 @@ body {
 @media screen and (max-width: 450px) {
   .card {
     padding: 0.5em;
-    width:90vw;
+    width: 90vw;
   }
-  .card_body{
+
+  .card_body {
     margin-bottom: 2rem;
   }
 
   .card_text {
     margin: 18px 0;
   }
-  .desk_top_divider{
+
+  .desk_top_divider {
     display: none;
   }
-  .mobile_divider{
+
+  .mobile_divider {
     width: 100%;
     display: block;
   }
